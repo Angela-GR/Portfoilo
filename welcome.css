@@ -77,8 +77,8 @@ left: -550px;
   background-size: cover;
   cursor: pointer;
   position: absolute;
-  top: 102px;
-  left: -259px;
+  top: 121px;
+  left: -123px;
   }
   .contact:hover{
     box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
@@ -91,3 +91,18 @@ left: -550px;
     top: -86px;
     border-radius: 100%;
   }
+  .resume{
+    font-size: 2rem;
+    padding: 14px 40px;
+    background-image: url("images/resume_button.jpg");
+    border-radius: 4px;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    top: 121px;
+    left: -398px;
+    }
+    .resume:hover{
+      box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+    }
