@@ -13,9 +13,11 @@ body{
   right: 50%;
   transform:(-50%, -50%); 
 }
-.wel{
+.wel {
   font-size: 400%;
-  /* margin-top: 20%; */
+  position: absolute;
+  top: -391px;
+  left: 260px;
 }
 button{
   float:left;
@@ -71,7 +73,10 @@ cursor: pointer;
   .contact:hover{
     box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
   }
-  #port{
+  #port {
     float: right;
     margin: 170px 200px 0 200px;
-  }
+    position: absolute;
+    left: 769px;
+    top: -86px;
+    border-radius: 100%;
