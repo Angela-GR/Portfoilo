@@ -6,6 +6,9 @@ body{
   overflow-y: hidden;
   /* overflow-x: hidden; */
 }
+.background{
+  background-image: radial-gradient((#ff99cc), (#cc99ff),(#3366ff));
+}
 .center{
   position: absolute;
   top: 50%;
