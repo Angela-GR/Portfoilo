@@ -3,7 +3,7 @@ html, body{
   width: 100%;
 }
 body{
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   overflow-x: hidden;
   background-image: linear-gradient(to left , #3366ff 0%, #ff99cc 100%);
 }
@@ -73,5 +73,5 @@ cursor: pointer;
   }
   #port{
     float: right;
-    margin: 100px 200px 0 0;
+    margin: 170px 200px 0 200px;
   }
