@@ -7,7 +7,7 @@ body{
   /* overflow-x: hidden; */
 }
 .background{
-  background-image: radial-gradient((#ff99cc), (#cc99ff),(#3366ff));
+  background-image: radial-gradient(magenta,violet, blue);
 }
 .center{
   position: absolute;
