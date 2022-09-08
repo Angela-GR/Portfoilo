@@ -15,11 +15,11 @@ body{
 }
 .wel{
   font-size: 400%;
-  /* margin-left: 20%; */
+  /* margin-top: 20%; */
 }
 button{
   float:left;
-  margin-left: 10px;
+
 }
 .about{
 font-size: 2rem;
@@ -65,8 +65,13 @@ cursor: pointer;
   border: 1px black;
   background-size: cover;
   cursor: pointer;
-  margin-left: %;
+  margin-left: 35%;
+  margin-bottom: 30%;
   }
   .contact:hover{
     box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+  }
+  #port{
+    float: right;
+    margin: 100px 200px 0 0;
   }
