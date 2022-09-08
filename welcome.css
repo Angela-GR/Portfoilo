@@ -55,8 +55,3 @@ cursor: pointer;
     .project:hover{
       box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
     }
-  /* @media only screen and (max-width:500px) {
-  .center,.wel{
-    width: 100%;
-  }
-} */
