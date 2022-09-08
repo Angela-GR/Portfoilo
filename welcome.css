@@ -4,7 +4,7 @@ html, body{
 }
 body{
   overflow-y: hidden;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .center{
   position: absolute;
