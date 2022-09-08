@@ -1,18 +1,19 @@
 html, body{
-  height: 95%;
+  height: 100%;
   width: 100%;
 }
 body{
-  overflow-y: hidden;
-  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+  background-image: radial-gradient(magenta,violet,blue);
 }
-.background{
-  background-image: radial-gradient(magenta,violet, blue);
-}
+/* .background{
+  background-image: radial-gradient(oval, magenta,violet,blue);
+} */
 .center{
   position: absolute;
   top: 50%;
-  right: 30%;
+  right: 50%;
   transform:(-50%, -50%); 
 }
 .wel{
@@ -24,7 +25,7 @@ button{
 }
 .about{
 font-size: 24px;
-margin-left: 20%;
+/* margin-left: 20%; */
 padding: 14px 40px;
 background-image: linear-gradient(to top right, #3366ff 10%, #ff99cc 84%);
 border-radius: 4px;
