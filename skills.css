@@ -55,3 +55,6 @@ html, body{
   top: 620px;
   left: 689px;
 }
+.back:hover{
+  box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+}
