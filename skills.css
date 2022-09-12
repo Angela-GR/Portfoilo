@@ -1,0 +1,45 @@
+html, body{
+  width: 90%;
+  height: 90%;
+}
+#python{
+  position: absolute;
+  top:133px;
+  left: 138px;
+}
+.snakes{
+  position: absolute;
+  top: 314px;
+  left: 181px;
+}
+#Html{
+  position: absolute;
+  top: 153px;
+  left: 373px;
+}
+.html{
+  position: absolute;
+  top: 317px;
+  left: 373px;
+}
+#Css{
+  position: absolute;
+  top: 152px;
+  left: 556px;
+}
+.css{
+  position: absolute;
+  top: 319px;
+  left: 575px;
+}
+.information{
+  position: absolute;
+  top: -10px;
+  left: 283px;
+  font-size: 2.5em;
+}
+.future{
+  position: absolute;
+  top: 600px;
+  font-size: 1.5em;
+}
