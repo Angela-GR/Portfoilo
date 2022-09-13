@@ -17,8 +17,11 @@ body{
 .wel {
   font-size: 400%;
   position: absolute;
-  top: -335px;
+  top: -325px;
   left: -353px;
+  background: linear-gradient( to right, #000099, #cc0066); 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .about{
 font-size: 2rem;
@@ -103,6 +106,10 @@ left: -550px;
     .resume:hover{
       box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
     }
-@media screen {
-  
+@media only screen and (max-width:500px){
+  .wel{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
 }
