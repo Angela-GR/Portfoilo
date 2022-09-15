@@ -110,11 +110,16 @@ img.about{
     .resume:hover{
       box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
     }
-  @media screen and (max-width:600px){
+
+  @media screen and (min-width:200px) and (max-width:600px){
     .wel{
+      position: absolute;
       font-size: 3em;
       top: -336px;
       left: 15px;
+      background: -webkit-linear-gradient(#000099, #cc0066); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     #port{
       left: 44px;
@@ -136,4 +141,8 @@ img.about{
       top: 132px;
       left: -274px;
     }
+  }
+
+  @media only screen and (min-width: 600px) {
+    
   }
