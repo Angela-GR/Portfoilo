@@ -122,8 +122,12 @@ img.about{
       -webkit-text-fill-color: transparent;
     }
     #port{
+      float: right;
+      margin: 170px 200px 0 200px;
+      position: absolute;
       left: 44px;
       top: -44px;
+      border-radius: 100%;
     }
     .about{
       top: -244px;
