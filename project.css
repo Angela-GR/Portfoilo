@@ -2,6 +2,14 @@ html,body{
   height: 100%;
   width: 90%;
 }
+body{
+  background: url("images/pretty.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-clip: cover;
+  -o-background-size:cover;
+  background-size: cover;
+  filter: blur(0px);
+}
 #Mon{
   position: absolute;
   top: 22px;
@@ -26,17 +34,20 @@ html,body{
   top: 278px;
   left: 0px;
   font-size: 1.1em;
+  color: white;
 }
 .infor2{
   position: absolute;
   top: 313px;
   left: 0px;
   font-size: 1.1em;
+  color: white;
 }
 .infor3{
   position: absolute;
   top: 350px;
-  left: 0px
+  left: 0px;
+  color: white;
 }
 #OP{
   position: absolute;
@@ -48,10 +59,12 @@ html,body{
   font-size: 1.1em;
   top: 778px;
   left: 29px;
+  color: white;
 }
 .op{
   position: absolute;
   top: 814px;
   left: 102px;
   font-size: 1.1em;
+  color: white;
 }

@@ -3,6 +3,14 @@ html, body{
   width: 90%;
   height: 90%;
 }
+body{
+  background: url("images/background3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-clip: cover;
+  -o-background-size:cover;
+  background-size: cover;
+  filter: blur(0px);
+}
 #link{
   position: absolute;
   top: 197px;
@@ -13,6 +21,7 @@ html, body{
   font-size: 2.5em;
   top: 90px;
   left: 157px;
+  color: tan;
 }
 #email{
   position: absolute;
@@ -24,6 +33,7 @@ html, body{
   font-size: 2.5em;
   top: 90px;
   left: 690px;
+  color: tan;
 }
 #github{
   position: absolute;
@@ -35,6 +45,7 @@ html, body{
   font-size: 2.5em;
   top: 90px;
   left: 1170px;
+  color: tan
 }
 .back{
   font-size: 2rem;

@@ -5,8 +5,16 @@ html, body{
 body{
   overflow-x: hidden;
   overflow-y: hidden;
+  background-image: url("images/background.jpg");
+}
+h1{
+  position: absolute;
+  top: -11px;
+  left: 565px;
+  font-size: 5em;
 }
 .information{
+  color: white;
   font-size: 3em;
   position: absolute;
   top: 167px;
@@ -21,7 +29,7 @@ body{
   cursor: pointer;
   position:absolute;
   top: 620px;
-  left: 650px;
+  left: 659px;
 }
 .back:hover{
   box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
