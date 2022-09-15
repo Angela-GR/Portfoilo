@@ -2,6 +2,10 @@ html, body{
   height: 100%;
   width: 100%;
 }
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 .information{
   font-size: 3em;
   position: absolute;
