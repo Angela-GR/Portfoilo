@@ -5,44 +5,39 @@ html, body{
 }
 #python{
   position: absolute;
-  top:133px;
-  left: 138px;
-}
-.snakes{
-  position: absolute;
-  top: 314px;
-  left: 181px;
+  top: 151px;
+  left: 146px;
 }
 #Html{
   position: absolute;
   top: 153px;
   left: 373px;
 }
-.html{
-  position: absolute;
-  top: 317px;
-  left: 373px;
-}
 #Css{
   position: absolute;
-  top: 152px;
+  top: 153px;
   left: 556px;
 }
-.css{
+#JS{
   position: absolute;
-  top: 319px;
-  left: 575px;
+  top: 153px;
+  left: 736px;
+}
+#DJ{
+  position: absolute;
+  top: 151px;
+  left: 938px;
+}
+#Java{
+  position: absolute;
+  top: 130px;
+  left: 1108px;
 }
 .information{
   position: absolute;
   top: -10px;
   left: 283px;
   font-size: 2.5em;
-}
-.future{
-  position: absolute;
-  top: 600px;
-  font-size: 1.5em;
 }
 .back{
   font-size: 2rem;

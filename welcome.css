@@ -26,7 +26,7 @@ body{
 .about{
 font-size: 2rem;
 padding: 14px 40px;
-background-image: url("images/about_me_button.jfif");
+background-image: linear-gradient(to right, #6699ff 15%, #ff33cc 70%);
 background-size: cover;
 border: none;
 border-radius: 4px;
@@ -38,10 +38,13 @@ left: -550px;
 .about:hover{
   box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
 }
+img.about{
+  opacity: 0.4;
+}
 .skills{
   font-size: 2rem;
   padding: 14px 40px;
-  background-image: url("images/skills_button.jfif");
+  background-image: linear-gradient(to left, #6699ff 15%, #ff33cc 70%);
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -56,7 +59,7 @@ left: -550px;
 .project{
   font-size: 2rem;
   padding: 14px 40px;
-  background-image: url("images/project_button.jfif");
+  background-color:#ff33cc;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -71,7 +74,7 @@ left: -550px;
 .contact{
   font-size: 2rem;
   padding: 14px 40px;
-  background-image: url("images/contact_button.jpg");
+  background-image: linear-gradient(to right, #6600ff 15%, #cc00cc 56%);
   border-radius: 4px;
   border: none;
   background-size: cover;
@@ -82,6 +85,7 @@ left: -550px;
   }
   .contact:hover{
     box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+    color: #000;
   }
   #port {
     float: right;
@@ -94,7 +98,7 @@ left: -550px;
   .resume{
     font-size: 2rem;
     padding: 14px 40px;
-    background-image: url("images/resume_button.jpg");
+    background-image: linear-gradient(to left, #6600ff 15%, #cc00cc 56%);
     border-radius: 4px;
     border: none;
     background-size: cover;
@@ -106,8 +110,30 @@ left: -550px;
     .resume:hover{
       box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
     }
-  @media (max-width:500px){
+  @media screen and (max-width:600px){
     .wel{
-      width: 100%;
+      font-size: 3em;
+      top: -336px;
+      left: 15px;
+    }
+    #port{
+      left: 44px;
+      top: -44px;
+    }
+    .about{
+      top: -244px;
+      left: -274px;
+    }
+    .project{
+      top: -177px;
+      left: -274px;
+    }
+    .skills{
+      top: 6px;
+      left: -274px;
+    }
+    .resume{
+      top: 132px;
+      left: -274px;
     }
   }
