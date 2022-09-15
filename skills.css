@@ -36,6 +36,16 @@ body{
   top: 130px;
   left: 1108px;
 }
+#SQL{
+  position: absolute;
+  top: 139px;
+  left: 1221px;
+}
+#Spring{
+  position: absolute;
+  top: 256px;
+  left: -140px;
+}
 .information{
   position: absolute;
   top: -10px;
