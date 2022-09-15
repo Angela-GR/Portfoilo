@@ -1,5 +1,5 @@
 html,body{
-  height: 90%;
+  height: 100%;
   width: 90%;
 }
 #Mon{
@@ -15,9 +15,43 @@ html,body{
   border-radius: 4px;
   cursor: pointer;
   position:absolute;
-  top: 620px;
+  top: 823px;
   left: 689px;
 }
 .back:hover{
   box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+}
+.mon_infor{
+  position: absolute;
+  top: 278px;
+  left: 0px;
+  font-size: 1.1em;
+}
+.infor2{
+  position: absolute;
+  top: 313px;
+  left: 0px;
+  font-size: 1.1em;
+}
+.infor3{
+  position: absolute;
+  top: 350px;
+  left: 0px
+}
+#OP{
+  position: absolute;
+  top: 511px;
+  left: 60px;
+}
+.OP{
+  position: absolute;
+  font-size: 1.1em;
+  top: 778px;
+  left: 29px;
+}
+.op{
+  position: absolute;
+  top: 814px;
+  left: 102px;
+  font-size: 1.1em;
 }
