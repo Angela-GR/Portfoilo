@@ -4,7 +4,7 @@ html, body{
   height: 90%;
 }
 body{
-  background: url("images/background3.png") no-repeat center center fixed;
+  background: url("images/BG.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-clip: cover;
   -o-background-size:cover;

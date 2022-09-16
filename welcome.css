@@ -144,7 +144,7 @@ left: -550px;
     }
   } */
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     html, body{
       height: 50%;
       width: 100%;
