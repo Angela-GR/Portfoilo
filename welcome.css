@@ -150,13 +150,7 @@ left: -550px;
       width: 100%;
     }
     #port {
-      border: 2px solid red;
-      float: center;
-      margin: 170px 200px 0 200px;
-      position: absolute;
-      left: 150px;
-      top: -86px;
-      border-radius: 100%;
+      display: none;
     }
     .wel {
       font-size: 400%;
