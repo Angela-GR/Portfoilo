@@ -144,7 +144,7 @@ left: -550px;
     }
   } */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     html, body{
       height: 50%;
       width: 100%;
@@ -154,7 +154,7 @@ left: -550px;
       float: center;
       margin: 170px 200px 0 200px;
       position: absolute;
-      left: 69px;
+      left: 150px;
       top: -86px;
       border-radius: 100%;
     }
