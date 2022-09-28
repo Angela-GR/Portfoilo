@@ -100,4 +100,8 @@ html,body {
   .information{
     font-size: 4em;
   }
+  .menu li a{
+    padding: 10px 0 10px 26px;
+    font-size: 26px;
+  }
 }
