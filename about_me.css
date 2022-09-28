@@ -84,12 +84,20 @@ html,body {
   left: 47%;
  } 
 }
-@media only screen and (min-width: 600px) and (max-width: 1240) {
+@media only screen and (min-width: 700px) and (max-width: 1240) {
   .title{
-    top: 11%;
-    left: 38%;
+    top: 9%;
+    left: 39%;
   }
   .information{
     top: 58%;
+  }
+}
+@media only screen and (min-width: 1240px) and (max-width: 2200) {
+  .title{
+    font-size: 4em;
+  }
+  .information{
+    font-size: 4em;
   }
 }
