@@ -46,10 +46,10 @@ html, body, #container {width:100%; height:100%; }
 @media only screen and (min-width: 0px) and (max-width: 600px) {
   .main-title {
     top: 50%;
-    left: 52%;
+    left: 60%;
   }
   .main-title .thin {
-    font-size: 6em;
+    font-size: 3em;
   }
   #container{
     width: 200%;
