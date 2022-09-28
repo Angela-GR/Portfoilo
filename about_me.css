@@ -86,10 +86,10 @@ html,body {
 }
 @media only screen and (min-width: 600px) and (max-width: 1240) {
   .title{
-    left: 23%;
+    top: 11%;
+    left: 38%;
   }
   .information{
-  font-size: 1.25em;
-  left: 47%;
+    top: 58%;
   }
 }
