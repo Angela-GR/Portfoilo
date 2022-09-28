@@ -56,6 +56,13 @@ html,body {
   background: #fff;
   padding: 5px;
 }
+.title{
+  font-size: 3em;
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 20%;
+}
 .information{
   position: absolute;
   margin: 0;
@@ -64,7 +71,7 @@ html,body {
   text-align: center;
   font-size: 2em;
   top: 50%;
-  left: 52%;
+  left: 51%;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
 }
