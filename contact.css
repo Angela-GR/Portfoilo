@@ -1,0 +1,63 @@
+/* Done with the contact page */
+html, body{
+  width: 90%;
+  height: 90%;
+}
+body{
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-clip: cover;
+  -o-background-size:cover;
+  background-size: cover;
+  filter: blur(0px);
+}
+#link{
+  position: absolute;
+  top: 197px;
+  left: 100px;
+}
+.link{
+  position: absolute;
+  font-size: 2.5em;
+  top: 90px;
+  left: 157px;
+  color: black;
+}
+#email{
+  position: absolute;
+  top: 239px;
+  left: 630px;
+}
+.email{
+  position: absolute;
+  font-size: 2.5em;
+  top: 90px;
+  left: 690px;
+  color: black;
+}
+#github{
+  position: absolute;
+  top: 186px;
+  left: 1082px;
+}
+.github{
+  position: absolute;
+  font-size: 2.5em;
+  top: 90px;
+  left: 1170px;
+  color: black;
+}
+.back{
+  font-size: 2rem;
+  padding: 14px 40px;
+  background-image: url("images/back_button.jpg");
+  background-size: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  position:absolute;
+  top: 620px;
+  left: 689px;
+}
+.back:hover{
+  box-shadow: 0 11px 14px 0 rgba(0,0,0,0.24), 0 16px 40px 0 rgba(0,0,0,0.19);
+}
