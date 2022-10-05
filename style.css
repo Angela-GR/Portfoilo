@@ -1,0 +1,137 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  background-color: #c2d7e9;
+}
+.menu {
+  width: 200px;
+  height: 100%;
+  background: url(https://subtlepatterns.com/patterns/broken_noise.png);
+  position: fixed;
+  top: 0;
+  left: -160px;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  display: block;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+  padding: 10px 0 10px 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+.menu li a:hover {
+  background: #fff;
+  color: #000;
+}
+.menu li a span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 34px;
+  border-left: 1px solid #fff;
+}
+.menu li .link-open-menu {
+  background: #2ecc71;
+  color: #000;
+}
+.menu li .link-open-menu i {
+  padding: 0px;
+  border-radius: 100%;
+  transition: ease-out 0.2s;
+}
+.menu li .link-open-menu:hover {
+  background: #27ae60;
+}
+.menu li .link-open-menu:hover i {
+  background: #fff;
+  padding: 5px;
+}
+.title {
+  font-size: 5em;
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  color: #562524;
+  font-weight: bolder;
+}
+.information {
+  position: absolute;
+  left: 5%;
+  top: 46%;
+  font-size: 2em;
+  color: #562524;
+  font-weight: bolder;
+}
+.field {
+  position: absolute;
+  left: 44%;
+  top: 35%;
+  font-size: 2em;
+  color: #562524;
+  font-weight: bolder;
+}
+body {
+  margin: 30px;
+}
+.parent {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  position: absolute;
+  top: 20%;
+  left: 34%;
+}
+.parent > div {
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+}
+.parent > div {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.python{
+  height: 104%;
+  width: 92%;
+}
+.html {
+  height: 72%;
+  width: 62%;
+}
+.css{
+  height: 72%;
+  width: 62%;
+}
+.django {
+  height: 83%;
+  width: 74%;
+}
+.java{
+  height: 65%;
+  width: 70%;
+}
+.js{
+  height: 72%;
+  width: 62%;
+}
+.SQL{
+  height: 65%;
+  width: 82%;
+}
+.Spring {
+    height: 69%;
+    width: 124%;
+}
