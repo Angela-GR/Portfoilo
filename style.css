@@ -3,6 +3,8 @@ html,body {
   height: 100%;
   background-color: #c2d7e9;
 }
+
+/* menu for all pages */
 .menu {
   width: 200px;
   height: 100%;
@@ -56,6 +58,8 @@ html,body {
   background: #fff;
   padding: 5px;
 }
+
+/* about me/ home page */
 .title {
   font-size: 5em;
   position: absolute;
@@ -80,9 +84,8 @@ html,body {
   color: #562524;
   font-weight: bolder;
 }
-body {
-  margin: 30px;
-}
+
+/* skill page */
 .parent {
   display: grid;
   grid-gap: 10px;
@@ -123,7 +126,7 @@ body {
   height: 65%;
   width: 70%;
 }
-.js{
+.javascript{
   height: 72%;
   width: 62%;
 }
@@ -134,4 +137,59 @@ body {
 .Spring {
     height: 69%;
     width: 124%;
+}
+
+
+/* contacts */
+.parent2 {
+  display: grid;
+  grid-gap: 101px;
+  grid-template-columns: repeat(2, 205px);
+  grid-template-rows: repeat(1, 171px);
+  position: absolute;
+  top: 41%;
+  left: 34%;
+}
+.mail {
+  height: 105%;
+  width: 118%;
+}
+.link {
+  height: 113%;
+  width: 117%;
+}
+
+/* project page */
+.Project-Heading{
+  color: white;
+  text-align: center;
+}
+#Mon{
+  margin-left: 37%;
+}
+.MonopolyBCK{
+  padding: 10px 20px;
+  background-clip: border-box;
+}
+.mon_infor{
+  text-align: center;
+  margin-left: 28%;
+  font-size: 1.1em;
+  color: black;
+}
+.Charity{
+  border: 5px solid black;
+  padding: 10px 20px;
+  background-color: black;
+  background-clip: border-box;
+  opacity: 71%;
+}
+#OP{
+  margin-left: 37%;
+}
+.OP{
+  text-align: center;
+  margin-left: 34%;
+  font-size: 1.1em;
+  color: white;
 }
