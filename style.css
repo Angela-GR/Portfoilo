@@ -7,7 +7,7 @@ html,body {
   font-size: 5em;
   position: absolute;
   top: 2%;
-  left: 42%;
+  left: 41%;
   color: #562524;
   font-weight: bolder;
 }
@@ -159,7 +159,7 @@ html,body {
   left: 34%;
 }
 .mail {
-  height: 105%;
+  height: 118%;
   width: 118%;
 }
 .link {
