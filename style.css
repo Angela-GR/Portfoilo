@@ -11,6 +11,22 @@ html,body {
   color: #562524;
   font-weight: bolder;
 }
+.Heading2{
+font-size: 5em;
+position: absolute;
+top: 2%;
+left: 41%;
+color: #562524;
+font-weight: bolder;
+}
+.Heading3{
+  font-size: 5em;
+  position: absolute;
+  top: 2%;
+  left: 41%;
+  color: #562524;
+  font-weight: bolder;
+}
 
 /* menu for all pages */
 .menu {
@@ -172,6 +188,8 @@ html,body {
   position: absolute;
   top: 12%;
   left: 14%;
+  width: 400; 
+  height: 260; 
 }
 .mon{
   position: absolute;
@@ -185,6 +203,8 @@ html,body {
   position: absolute;
   top: 48%;
   left: 14%;
+  width: 400; 
+  height: 270; 
 }
 .OP{
   position: absolute;
@@ -194,4 +214,96 @@ html,body {
   font-size: 2em;
   color: black;
 }
+@media only screen and (min-width: 0px) and (max-width:700px) {
+  .title{
+    top: 8%;
+    left: 40%;
+  }
+  .field{
+    left: 37%;
+  }
+  .parent{
+    top: 40%;
+    left: 18%;
+  }
+  #Mon{
+    height: 193px;
+    width: 239px;
+    left: 41%;
+    top: 17%;
+  }
+  .mon{
+    top: 47%;
+    font-size: 1em;
+    left: 24%;
+  }
+  #OP{
+    top: 69%;
+    height: 222px;
+    width: 273px;
+    left: 3%;
+  }
+  .OP{
+    font-size: 1.5em;
+    left: 51%;
+    top: 77%;
+  }
+  .parent2{
+    left: 10%;
+    top: 52%;
+  }
+  .Heading{
+    top: 19%;
+  }
+  .Heading2{
+    left: 36%
+  }
+  .Heading3{
+    top: 20%;
+    left: 33%;
+  }
+}
 
+
+@media screen and (min-width:769px) and (max-width:800px) {
+  .title{
+    left: 35%;
+  }
+  .information{
+    font-size: 1.5em;
+  }
+  .parent{
+    left: 24%;
+  }
+  #Mon{
+    height: 193px;
+    width: 239px;
+    left: 29%;
+    top: 17%;
+  }
+  .mon{
+    top: 20%;
+    font-size: 1em;
+    left: 60%;
+  }
+  #OP{
+    height: 222px;
+    width: 273px;
+    left: 29%;
+  }
+  .OP{
+    font-size: 1em;
+    left: 65%;
+  }
+  .parent2{
+  left: 20%;
+  }
+  .Heading2{
+    left: 32%
+  }
+}
+@media only screen and (max-width:768px) {
+  .title{
+    left: 20%;
+  }
+}
