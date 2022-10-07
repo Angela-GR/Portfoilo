@@ -85,7 +85,7 @@ font-weight: bolder;
 
 /* about me/ home page */
 .title {
-  font-size: 5em;
+  font-size: 5rem;
   position: absolute;
   top: 15%;
   left: 36%;
@@ -96,7 +96,7 @@ font-weight: bolder;
   position: absolute;
   left: 5%;
   top: 46%;
-  font-size: 2em;
+  font-size: 2rem;
   color: #562524;
   font-weight: bolder;
 }
@@ -112,7 +112,7 @@ font-weight: bolder;
 /* skill page */
 .parent {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 2%;
   grid-template-columns: repeat(3, 150px);
   grid-template-rows: repeat(3, 150px);
   position: absolute;
@@ -167,7 +167,7 @@ font-weight: bolder;
 /* contacts */
 .parent2 {
   display: grid;
-  grid-gap: 101px;
+  grid-gap: 35%;
   grid-template-columns: repeat(2, 205px);
   grid-template-rows: repeat(1, 171px);
   position: absolute;
@@ -188,33 +188,49 @@ font-weight: bolder;
   position: absolute;
   top: 12%;
   left: 14%;
-  width: 400; 
-  height: 260; 
-}
+  width: 25%;
+  height: 34%;
+} 
 .mon{
   position: absolute;
-  top: 23%;
+  top: 28%;
   left: 42%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2rem;
+  color: black;
+}
+.game{  
+  position: absolute;
+  top: 19%;
+  left: 59%;
+  text-align: center;
+  font-size: 2rem;
   color: black;
 }
 #OP{
   position: absolute;
   top: 48%;
   left: 14%;
-  width: 400; 
-  height: 270; 
+  width: 25%; 
+  height: 29%; 
+}
+.about{
+  position: absolute;
+  top: 52%;
+  left: 54%;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
 }
 .OP{
   position: absolute;
   top: 59%;
   left: 42%;
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
   color: black;
 }
-@media only screen and (min-width: 0px) and (max-width:700px) {
+@media only screen and (min-width: 0px) and (max-width:750px) {
   .title{
     top: 8%;
     left: 40%;
@@ -263,47 +279,8 @@ font-weight: bolder;
     left: 33%;
   }
 }
-
-
-@media screen and (min-width:769px) and (max-width:800px) {
-  .title{
-    left: 35%;
-  }
+@media screen and (height:1080px), screen and (width:1920px){
   .information{
-    font-size: 1.5em;
-  }
-  .parent{
-    left: 24%;
-  }
-  #Mon{
-    height: 193px;
-    width: 239px;
-    left: 29%;
-    top: 17%;
-  }
-  .mon{
-    top: 20%;
-    font-size: 1em;
     left: 60%;
-  }
-  #OP{
-    height: 222px;
-    width: 273px;
-    left: 29%;
-  }
-  .OP{
-    font-size: 1em;
-    left: 65%;
-  }
-  .parent2{
-  left: 20%;
-  }
-  .Heading2{
-    left: 32%
-  }
-}
-@media only screen and (max-width:768px) {
-  .title{
-    left: 20%;
   }
 }
