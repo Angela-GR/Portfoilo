@@ -202,44 +202,67 @@ font-weight: bolder;
   position: absolute;
   top: 12%;
   left: 14%;
-  width: 25%;
-  height: 34%;
+  width: 19%;
+  height: 26%;
 } 
 .mon{
   position: absolute;
-  top: 28%;
-  left: 42%;
+  top: 21%;
+  left: 32%;
   text-align: center;
   font-size: 2rem;
   color: black;
 }
 .game{  
   position: absolute;
-  top: 19%;
-  left: 59%;
+  top: 14%;
+  left: 49%;
   text-align: center;
   font-size: 2rem;
   color: black;
 }
 #OP{
   position: absolute;
-  top: 48%;
+  top: 42%;
   left: 14%;
-  width: 25%; 
-  height: 29%; 
+  width: 20%;
+  height: 22%;
 }
 .about{
   position: absolute;
-  top: 52%;
-  left: 54%;
+  top: 44%;
+  left: 46%;
   text-align: center;
   font-size: 2rem;
   color: black;
 }
 .OP{
   position: absolute;
-  top: 59%;
-  left: 42%;
+  top: 50%;
+  left: 33%;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+#store{
+  position: absolute;
+  top: 69%;
+  left: 14%;
+  width: 20%;
+  height: 22%;
+}
+.language{
+  position: absolute;
+  top: 65%;
+  left: 46%;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+.informat{
+  position: absolute;
+  top: 71%;
+  left: 33%;
   text-align: center;
   font-size: 2rem;
   color: black;
